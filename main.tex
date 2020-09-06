@@ -28,7 +28,7 @@
         \vspace{0.8cm}
             
         \Large
-        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Departamento de Ingeniería Electrónica y Telecomunicaciones\\
         Universidad de Antioquia\\
         Medellín\\
         Septiembre de 2020
@@ -50,25 +50,51 @@ Ahora bien, si existe una gran variedad de dispositivos que utilizan los diferen
 
 \section{¿Que es la memoria de un computador?} \label{contenido}
 La memoria es un componente que se encarga retener, memorizar o almacenar datos durante un periodo de tiempo.\cite{definicion}
-Siendo así, un componente con un papel muy importante, desde el momento en el que se enciende el computador, hasta el momento en que se apaga, la memoria se encuentra activa (o bien sea las memoras, teniendo en cuenta que no solo existe un tipo de memoria y que no hay solo una por computador) permitiendo que el microprocesador pueda acceder a los datos que requiere para gestionar la computadora y permitir así que el usuario tenga a acceso a los diversos archivos y aplicaciones que tenga almacenados. 
-   
+Siendo así, un componente con un papel muy importante, desde el momento en el que se enciende el computador, hasta el momento en que se apaga, la memoria se encuentra activa (o bien sea las memoras, teniendo en cuenta que no solo existe un tipo de memoria y que no hay solo una por computador) permitiendo que el microprocesador pueda acceder a los datos que requiere para gestionar la computadora y permitir así que el usuario tenga a acceso a los diversos archivos y aplicaciones que tenga almacenados. A continuación se muestra una memoria RAM, siendo esta la más conocida y la que primero nos suele venir a la mente a la hora de hablar sobre memorias. Figura \ref{fig:memoriapc}
+
 \begin{figure}[h]
-\includegraphics[width=10cm]{Memoria.jpg}
+\includegraphics[width=7cm]{Memoria.jpg}
 \centering
-\caption{Memoria ram de un pc}
+\caption{Memoria RAM de un pc}
 \label{fig:memoriapc}
 \end{figure}
+
+
+\section{Tipos de memoria}
+Como se ha comentado no existe solo un tipo de memoria, sino que son varios tipos de memoria, los cuales actúan en situaciones diferentes, a velocidades diferentes y además, tiene capacidades diferentes; a pesar de que todas tienen la función de almacenar información. 
+Entre los tipos de memoria mas comunes tenemos:
+\begin{enumerate}
+\item \textbf{Memoria caché:} <<La memoria cache nació cuando se descubrió que las memorias ya no eran capaces de acompañar a la velocidad del procesador>>\cite{tipos-memoria}, lo cual provocaba retrasos en el procesador el cual debía quedar esperando a que la memoria RAM entregase los datos para así poderlos procesar. La solución a este problema fue crear un tipo de memoria ultra-rápida que fuese capaz de almacenar los datos que el procesador requiere con mayor frecuencia para impedir estos retrasos.
+Aunque este aumento significativo en la velocidad de la memoria suponía un problema, y es que este tipo de memoria son muy costosas, lo cual haría que un computador hogareño fuese algo casi imposible de adquirir, la solución a este nuevo problema sería usar la memoria cache en menos cantidades y poder colocar así otro tipo de memorias que, aunque más lentas, son más económicas y tienen mayor capacidad de almacenamiento. 
+Este tipo de memoria, a su vez esta dividida en tres tipos o como se les llama, niveles, los cuales son:
+\subitem L1(Nivel 1): Esta se encuentra dentro de los núcleos de procesador, funcionando a la misma velocidad de estos pero con una capacidad individual en promedio de 32kilo-bytes.
+\subitem L2(Nivel 2): También se encuentras dentro de los núcleos pero siendo estas un poco más lentas, aunque con mayor capacidad, teniendo en promedio una capacidad individual de almacenar 256kilo-bytes.
+\subitem L3(Nivel 3): Se encuentra dentro del procesador, pero por fuera de los núcleos, por lo que es compartida por todos. Es más lenta pero posee más capacidad que las anteriores, en promedio 12Mega-bytes. 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.25]{Memoria cache.jpg}
+        \caption{Memoria cache}
+        \label{fig:memoriacachel}
+    \end{figure}
+
+
+\item \textbf{Memoria RAM}: Considerada la memoria más importante del computador, la memoria RAM o Random Access Memory, posee menos velocidad que la memoria caché, pero podemos tener mucha RAM a un precio bastante asequible, por lo que la mayor parte de los datos se almacena en esta; no obstante, debemos tener en cuenta de que es volátil, lo que quiere decir que todos los datos que fueron cargados en ella se perderán cuando el computador se apague.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=8cm]{Memoria RAM.jpg}
+        \caption{Memoria RAM}
+        \label{fig:memoriaram}
+    \end{figure}
     
-El paquete también agrega un comportamiento especial 
-a <<estas marcas para hacer citas textuales>> tal como 
-lo indican las reglas de la RAE.
+\item \textbf{Memoria ROM:} Se encuentra de fabrica en la placa madre, y contiene la información que requiere el computador a la hora de encender. Debido a la importancia de los datos que contiene no puede ser alterada por el usuario mediante aplicaciones, de ahí su nombre ROM(Read Only Memory); además no es volátil, lo que quiere decir que sus datos permanecen aun cuando se apaga el computador.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.15]{Memoria ROM.jpg}
+        \caption{Memoria ROM}
+        \label{fig:memoria_rom}
+    \end{figure}
 
-
-A continuación se presenta el logo de C++ Figura 
-
-
-
-En la sección de teoremas (\ref{contenido})
+\end{enumerate}
 
 \section{Conclusión} \label{conclulsion}
 
